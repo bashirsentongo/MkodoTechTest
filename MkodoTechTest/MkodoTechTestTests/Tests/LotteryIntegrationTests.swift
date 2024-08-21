@@ -10,7 +10,7 @@ import XCTest
 
 class LotteryIntegrationTests: XCTestCase {
 
-    func testViewModelFetchesDrawsSuccessfully() {
+    func test_viewModel_fetches_draws_successfully() {
         // Given
         let service = LotteryService()
         let viewModel = LotteryDrawsViewModel(service: service)
@@ -25,7 +25,7 @@ class LotteryIntegrationTests: XCTestCase {
         XCTAssertEqual(viewModel.lotteryDraws.count, 3) // Replace expectedCount with the actual number of draws
     }
 
-    func testViewModelHandlesMissingFile() {
+    func test_viewModel_handles_missing_file() {
         // Given
         let service = LotteryService()
         let viewModel = LotteryDrawsViewModel(service: service)
@@ -39,7 +39,7 @@ class LotteryIntegrationTests: XCTestCase {
         XCTAssertTrue(viewModel.lotteryDraws.isEmpty, "Lottery draws should be empty")
     }
 
-    func testViewModelHandlesEmptyData() {
+    func test_viewModel_handles_empty_data() {
         // Given
         let service = LotteryService()
         let viewModel = LotteryDrawsViewModel(service: service)
