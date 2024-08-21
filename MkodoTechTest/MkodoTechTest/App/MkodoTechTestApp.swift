@@ -11,7 +11,9 @@ import SwiftUI
 struct MkodoTechTestApp: App {
     var body: some Scene {
         WindowGroup {
-
+            let service = LotteryService()
+            let viewModel = LotteryDrawsViewModel(service: service)
+            LotteryDrawsListView(viewModel: viewModel)
         }
     }
 }

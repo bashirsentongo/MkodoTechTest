@@ -10,6 +10,18 @@
 		6822C0662C75CEC6001C6172 /* MkodoTechTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0652C75CEC6001C6172 /* MkodoTechTestApp.swift */; };
 		6822C06A2C75CEC8001C6172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6822C0692C75CEC8001C6172 /* Assets.xcassets */; };
 		6822C06D2C75CEC8001C6172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6822C06C2C75CEC8001C6172 /* Preview Assets.xcassets */; };
+		6822C07E2C75D285001C6172 /* LotteryDrawsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C07D2C75D285001C6172 /* LotteryDrawsListView.swift */; };
+		6822C0802C75D317001C6172 /* LotteryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C07F2C75D317001C6172 /* LotteryService.swift */; };
+		6822C0822C75D342001C6172 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0812C75D342001C6172 /* Draw.swift */; };
+		6822C0852C75D469001C6172 /* lotteryDraws.json in Resources */ = {isa = PBXBuildFile; fileRef = 6822C0842C75D469001C6172 /* lotteryDraws.json */; };
+		6822C0892C75D540001C6172 /* LotteryDrawError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0882C75D540001C6172 /* LotteryDrawError.swift */; };
+		6822C08B2C75D6FD001C6172 /* LotteryDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C08A2C75D6FD001C6172 /* LotteryDraw.swift */; };
+		6822C08E2C75D7AA001C6172 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C08D2C75D7AA001C6172 /* Array+Ext.swift */; };
+		6822C0902C75D86D001C6172 /* LotteryDrawsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C08F2C75D86D001C6172 /* LotteryDrawsViewModel.swift */; };
+		6822C0942C75DC97001C6172 /* LotteryDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0932C75DC97001C6172 /* LotteryDrawView.swift */; };
+		6822C0962C75DE90001C6172 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0952C75DE90001C6172 /* Background.swift */; };
+		6822C0982C75E44B001C6172 /* LotteryDrawDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0972C75E44B001C6172 /* LotteryDrawDetailView.swift */; };
+		6822C09A2C75ECDA001C6172 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0992C75ECDA001C6172 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +29,18 @@
 		6822C0652C75CEC6001C6172 /* MkodoTechTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MkodoTechTestApp.swift; sourceTree = "<group>"; };
 		6822C0692C75CEC8001C6172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6822C06C2C75CEC8001C6172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6822C07D2C75D285001C6172 /* LotteryDrawsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawsListView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/LotteryDrawsListView.swift; sourceTree = "<group>"; };
+		6822C07F2C75D317001C6172 /* LotteryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryService.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Services/LotteryService.swift; sourceTree = "<group>"; };
+		6822C0812C75D342001C6172 /* Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Draw.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Models/Draw.swift; sourceTree = "<group>"; };
+		6822C0842C75D469001C6172 /* lotteryDraws.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = lotteryDraws.json; path = ../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Resources/JSON/lotteryDraws.json; sourceTree = "<group>"; };
+		6822C0882C75D540001C6172 /* LotteryDrawError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawError.swift; path = ../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Common/ErrorHandling/LotteryDrawError.swift; sourceTree = "<group>"; };
+		6822C08A2C75D6FD001C6172 /* LotteryDraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDraw.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Models/LotteryDraw.swift; sourceTree = "<group>"; };
+		6822C08D2C75D7AA001C6172 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Array+Ext.swift"; path = "../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Common/Extensions/Array+Ext.swift"; sourceTree = "<group>"; };
+		6822C08F2C75D86D001C6172 /* LotteryDrawsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawsViewModel.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/ViewModels/LotteryDrawsViewModel.swift; sourceTree = "<group>"; };
+		6822C0932C75DC97001C6172 /* LotteryDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/LotteryDrawView.swift; sourceTree = "<group>"; };
+		6822C0952C75DE90001C6172 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Background.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/Background.swift; sourceTree = "<group>"; };
+		6822C0972C75E44B001C6172 /* LotteryDrawDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawDetailView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/LotteryDrawDetailView.swift; sourceTree = "<group>"; };
+		6822C0992C75ECDA001C6172 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +73,10 @@
 		6822C0642C75CEC6001C6172 /* MkodoTechTest */ = {
 			isa = PBXGroup;
 			children = (
-				6822C0652C75CEC6001C6172 /* MkodoTechTestApp.swift */,
-				6822C0692C75CEC8001C6172 /* Assets.xcassets */,
+				6822C0732C75D1F8001C6172 /* App */,
+				6822C0752C75D215001C6172 /* Features */,
+				6822C0862C75D512001C6172 /* Common */,
+				6822C0742C75D200001C6172 /* Resources */,
 				6822C06B2C75CEC8001C6172 /* Preview Content */,
 			);
 			path = MkodoTechTest;
@@ -62,6 +88,112 @@
 				6822C06C2C75CEC8001C6172 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6822C0732C75D1F8001C6172 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0652C75CEC6001C6172 /* MkodoTechTestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6822C0742C75D200001C6172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0832C75D43F001C6172 /* JSON */,
+				6822C0692C75CEC8001C6172 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6822C0752C75D215001C6172 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0762C75D21F001C6172 /* LotteryDraws */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6822C0762C75D21F001C6172 /* LotteryDraws */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0792C75D23E001C6172 /* Models */,
+				6822C0782C75D238001C6172 /* Views */,
+				6822C0772C75D22F001C6172 /* ViewModels */,
+				6822C07A2C75D248001C6172 /* Services */,
+			);
+			path = LotteryDraws;
+			sourceTree = "<group>";
+		};
+		6822C0772C75D22F001C6172 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6822C08F2C75D86D001C6172 /* LotteryDrawsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6822C0782C75D238001C6172 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6822C07D2C75D285001C6172 /* LotteryDrawsListView.swift */,
+				6822C0932C75DC97001C6172 /* LotteryDrawView.swift */,
+				6822C0972C75E44B001C6172 /* LotteryDrawDetailView.swift */,
+				6822C0952C75DE90001C6172 /* Background.swift */,
+				6822C0992C75ECDA001C6172 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6822C0792C75D23E001C6172 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0812C75D342001C6172 /* Draw.swift */,
+				6822C08A2C75D6FD001C6172 /* LotteryDraw.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6822C07A2C75D248001C6172 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6822C07F2C75D317001C6172 /* LotteryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6822C0832C75D43F001C6172 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0842C75D469001C6172 /* lotteryDraws.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		6822C0862C75D512001C6172 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6822C08C2C75D77F001C6172 /* Extensions */,
+				6822C0872C75D528001C6172 /* ErrorHandling */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6822C0872C75D528001C6172 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0882C75D540001C6172 /* LotteryDrawError.swift */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		6822C08C2C75D77F001C6172 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6822C08D2C75D7AA001C6172 /* Array+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6822C0852C75D469001C6172 /* lotteryDraws.json in Resources */,
 				6822C06D2C75CEC8001C6172 /* Preview Assets.xcassets in Resources */,
 				6822C06A2C75CEC8001C6172 /* Assets.xcassets in Resources */,
 			);
@@ -134,7 +267,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6822C08E2C75D7AA001C6172 /* Array+Ext.swift in Sources */,
 				6822C0662C75CEC6001C6172 /* MkodoTechTestApp.swift in Sources */,
+				6822C0902C75D86D001C6172 /* LotteryDrawsViewModel.swift in Sources */,
+				6822C0942C75DC97001C6172 /* LotteryDrawView.swift in Sources */,
+				6822C09A2C75ECDA001C6172 /* InfoView.swift in Sources */,
+				6822C0822C75D342001C6172 /* Draw.swift in Sources */,
+				6822C07E2C75D285001C6172 /* LotteryDrawsListView.swift in Sources */,
+				6822C08B2C75D6FD001C6172 /* LotteryDraw.swift in Sources */,
+				6822C0802C75D317001C6172 /* LotteryService.swift in Sources */,
+				6822C0982C75E44B001C6172 /* LotteryDrawDetailView.swift in Sources */,
+				6822C0892C75D540001C6172 /* LotteryDrawError.swift in Sources */,
+				6822C0962C75DE90001C6172 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
