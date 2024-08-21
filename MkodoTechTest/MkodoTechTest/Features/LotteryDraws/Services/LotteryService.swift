@@ -8,15 +8,16 @@
 import Foundation
 
 protocol LotteryServiceProtocol {
-    func fetchLotteryDraws() throws -> [Draw]
+    func fetchLotteryDraws(from file: File) throws -> [Draw]
 }
 
 class LotteryService: LotteryServiceProtocol {
 
-    func fetchLotteryDraws() throws -> [Draw] {
+    // Use a file parameter to enable us test the empty scenario
+    func fetchLotteryDraws(from file: File) throws -> [Draw] {
         guard let file = Bundle.main.url(
-            forResource: Constants.resource,
-            withExtension: Constants.type
+            forResource: file.name,
+            withExtension: file.type
         ) else {
             throw LotteryDrawError.noFiledFound
         }
@@ -31,13 +32,5 @@ class LotteryService: LotteryServiceProtocol {
         }
 
         return lotteryResponse.draws
-    }
-}
-
-extension LotteryService {
-
-    private struct Constants {
-        static let resource = "lotteryDraws"
-        static let type = "json"
     }
 }

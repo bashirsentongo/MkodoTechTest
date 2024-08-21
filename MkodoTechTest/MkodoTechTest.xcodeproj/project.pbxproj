@@ -22,7 +22,24 @@
 		6822C0962C75DE90001C6172 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0952C75DE90001C6172 /* Background.swift */; };
 		6822C0982C75E44B001C6172 /* LotteryDrawDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0972C75E44B001C6172 /* LotteryDrawDetailView.swift */; };
 		6822C09A2C75ECDA001C6172 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0992C75ECDA001C6172 /* InfoView.swift */; };
+		6822C0AD2C75F6F2001C6172 /* LotteryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0AC2C75F6F2001C6172 /* LotteryServiceTests.swift */; };
+		6822C0B32C75FA27001C6172 /* mockLotteryDraws.json in Resources */ = {isa = PBXBuildFile; fileRef = 6822C0B22C75FA27001C6172 /* mockLotteryDraws.json */; };
+		6822C0B52C75FA94001C6172 /* mockEmptyLotteryDraws.json in Resources */ = {isa = PBXBuildFile; fileRef = 6822C0B42C75FA94001C6172 /* mockEmptyLotteryDraws.json */; };
+		6822C0B72C75FD4D001C6172 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0B62C75FD4D001C6172 /* File.swift */; };
+		6822C0B92C75FFAF001C6172 /* LotteryServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0B82C75FFAF001C6172 /* LotteryServiceMock.swift */; };
+		6822C0BB2C760009001C6172 /* LotteryDrawsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0BA2C760009001C6172 /* LotteryDrawsViewModelTests.swift */; };
+		6822C0C12C760BE6001C6172 /* LotteryIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6822C0C02C760BE6001C6172 /* LotteryIntegrationTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6822C0A32C75F664001C6172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6822C05A2C75CEC6001C6172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6822C0612C75CEC6001C6172;
+			remoteInfo = MkodoTechTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6822C0622C75CEC6001C6172 /* MkodoTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MkodoTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +58,25 @@
 		6822C0952C75DE90001C6172 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Background.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/Background.swift; sourceTree = "<group>"; };
 		6822C0972C75E44B001C6172 /* LotteryDrawDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawDetailView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/LotteryDrawDetailView.swift; sourceTree = "<group>"; };
 		6822C0992C75ECDA001C6172 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoView.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Views/InfoView.swift; sourceTree = "<group>"; };
+		6822C09F2C75F664001C6172 /* MkodoTechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MkodoTechTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6822C0AC2C75F6F2001C6172 /* LotteryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryServiceTests.swift; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/Tests/LotteryServiceTests.swift; sourceTree = "<group>"; };
+		6822C0B22C75FA27001C6172 /* mockLotteryDraws.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = mockLotteryDraws.json; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/JSON/mockLotteryDraws.json; sourceTree = "<group>"; };
+		6822C0B42C75FA94001C6172 /* mockEmptyLotteryDraws.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = mockEmptyLotteryDraws.json; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/JSON/mockEmptyLotteryDraws.json; sourceTree = "<group>"; };
+		6822C0B62C75FD4D001C6172 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../../../../../MKodoTechTest/MkodoTechTest/MkodoTechTest/Features/LotteryDraws/Models/File.swift; sourceTree = "<group>"; };
+		6822C0B82C75FFAF001C6172 /* LotteryServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryServiceMock.swift; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/Mocks/LotteryServiceMock.swift; sourceTree = "<group>"; };
+		6822C0BA2C760009001C6172 /* LotteryDrawsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryDrawsViewModelTests.swift; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/Tests/LotteryDrawsViewModelTests.swift; sourceTree = "<group>"; };
+		6822C0C02C760BE6001C6172 /* LotteryIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LotteryIntegrationTests.swift; path = ../../../../MKodoTechTest/MkodoTechTest/MkodoTechTestTests/Tests/LotteryIntegrationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6822C05F2C75CEC6001C6172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822C09C2C75F664001C6172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6822C0642C75CEC6001C6172 /* MkodoTechTest */,
+				6822C0A02C75F664001C6172 /* MkodoTechTestTests */,
 				6822C0632C75CEC6001C6172 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6822C0622C75CEC6001C6172 /* MkodoTechTest.app */,
+				6822C09F2C75F664001C6172 /* MkodoTechTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +185,7 @@
 			children = (
 				6822C0812C75D342001C6172 /* Draw.swift */,
 				6822C08A2C75D6FD001C6172 /* LotteryDraw.swift */,
+				6822C0B62C75FD4D001C6172 /* File.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +231,43 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		6822C0A02C75F664001C6172 /* MkodoTechTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0B12C75FA13001C6172 /* JSON */,
+				6822C0A82C75F682001C6172 /* Mocks */,
+				6822C0A92C75F68C001C6172 /* Tests */,
+			);
+			path = MkodoTechTestTests;
+			sourceTree = "<group>";
+		};
+		6822C0A82C75F682001C6172 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0B82C75FFAF001C6172 /* LotteryServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		6822C0A92C75F68C001C6172 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0AC2C75F6F2001C6172 /* LotteryServiceTests.swift */,
+				6822C0BA2C760009001C6172 /* LotteryDrawsViewModelTests.swift */,
+				6822C0C02C760BE6001C6172 /* LotteryIntegrationTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6822C0B12C75FA13001C6172 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6822C0B22C75FA27001C6172 /* mockLotteryDraws.json */,
+				6822C0B42C75FA94001C6172 /* mockEmptyLotteryDraws.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,6 +288,24 @@
 			productReference = 6822C0622C75CEC6001C6172 /* MkodoTechTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6822C09E2C75F664001C6172 /* MkodoTechTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6822C0A52C75F664001C6172 /* Build configuration list for PBXNativeTarget "MkodoTechTestTests" */;
+			buildPhases = (
+				6822C09B2C75F664001C6172 /* Sources */,
+				6822C09C2C75F664001C6172 /* Frameworks */,
+				6822C09D2C75F664001C6172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6822C0A42C75F664001C6172 /* PBXTargetDependency */,
+			);
+			name = MkodoTechTestTests;
+			productName = MkodoTechTestTests;
+			productReference = 6822C09F2C75F664001C6172 /* MkodoTechTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -228,6 +318,11 @@
 				TargetAttributes = {
 					6822C0612C75CEC6001C6172 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					6822C09E2C75F664001C6172 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+						TestTargetID = 6822C0612C75CEC6001C6172;
 					};
 				};
 			};
@@ -245,6 +340,7 @@
 			projectRoot = "";
 			targets = (
 				6822C0612C75CEC6001C6172 /* MkodoTechTest */,
+				6822C09E2C75F664001C6172 /* MkodoTechTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +353,15 @@
 				6822C0852C75D469001C6172 /* lotteryDraws.json in Resources */,
 				6822C06D2C75CEC8001C6172 /* Preview Assets.xcassets in Resources */,
 				6822C06A2C75CEC8001C6172 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6822C09D2C75F664001C6172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822C0B32C75FA27001C6172 /* mockLotteryDraws.json in Resources */,
+				6822C0B52C75FA94001C6172 /* mockEmptyLotteryDraws.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,12 +382,32 @@
 				6822C08B2C75D6FD001C6172 /* LotteryDraw.swift in Sources */,
 				6822C0802C75D317001C6172 /* LotteryService.swift in Sources */,
 				6822C0982C75E44B001C6172 /* LotteryDrawDetailView.swift in Sources */,
+				6822C0B72C75FD4D001C6172 /* File.swift in Sources */,
 				6822C0892C75D540001C6172 /* LotteryDrawError.swift in Sources */,
 				6822C0962C75DE90001C6172 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6822C09B2C75F664001C6172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6822C0AD2C75F6F2001C6172 /* LotteryServiceTests.swift in Sources */,
+				6822C0BB2C760009001C6172 /* LotteryDrawsViewModelTests.swift in Sources */,
+				6822C0C12C760BE6001C6172 /* LotteryIntegrationTests.swift in Sources */,
+				6822C0B92C75FFAF001C6172 /* LotteryServiceMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6822C0A42C75F664001C6172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6822C0612C75CEC6001C6172 /* MkodoTechTest */;
+			targetProxy = 6822C0A32C75F664001C6172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6822C06E2C75CEC8001C6172 /* Debug */ = {
@@ -420,6 +545,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +575,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +586,45 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6822C0A62C75F664001C6172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB6CTV9S7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BASHIRLLC.MkodoTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MkodoTechTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MkodoTechTest";
+			};
+			name = Debug;
+		};
+		6822C0A72C75F664001C6172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB6CTV9S7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BASHIRLLC.MkodoTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MkodoTechTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MkodoTechTest";
 			};
 			name = Release;
 		};
@@ -479,6 +645,15 @@
 			buildConfigurations = (
 				6822C0712C75CEC8001C6172 /* Debug */,
 				6822C0722C75CEC8001C6172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6822C0A52C75F664001C6172 /* Build configuration list for PBXNativeTarget "MkodoTechTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6822C0A62C75F664001C6172 /* Debug */,
+				6822C0A72C75F664001C6172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

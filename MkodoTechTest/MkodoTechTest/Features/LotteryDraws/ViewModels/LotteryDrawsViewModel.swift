@@ -24,12 +24,14 @@ class LotteryDrawsViewModel: ObservableObject {
         self.service = service
     }
 
-    func fetchLotteryDraws() {
+    func fetchLotteryDraws(from file: File = File(name: Constants.name)) {
         viewState = .loading
         defer { viewState = .finished  }
 
         do {
-            let draws = try service.fetchLotteryDraws()
+            let draws = try service.fetchLotteryDraws(
+                from: file
+            )
             lotteryDraws = draws
         } catch {
             hasError = true
@@ -40,6 +42,12 @@ class LotteryDrawsViewModel: ObservableObject {
                 self.error = .custom(error: error)
             }
         }
+    }
+}
+
+extension LotteryDrawsViewModel {
+    private struct Constants {
+        static let name = "lotteryDraws"
     }
 }
 
